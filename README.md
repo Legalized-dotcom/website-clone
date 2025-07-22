@@ -24,6 +24,15 @@ Run the script and enter the URL when prompted:
 python clone.py https://example.com/login
 ```
 
+Then host the folder
+```
+python -m http.server 8000
+
+¤¤ Example: python -m http.server 8000 --directory /mirror_https_github.com_login/
+
+then go to http://localhost:8000/ in browser to see page
+```
+
 ## How It Works
 
 1. Downloads the main HTML page while preserving exact structure
