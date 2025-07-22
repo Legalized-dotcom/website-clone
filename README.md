@@ -21,28 +21,7 @@ cd website-clone
 Run the script and enter the URL when prompted:
 
 ```bash
-python clone.py
-```
-
-**Example:**
-```
-Enter URL: github.com/login
-Downloading...
-✅ Saved to: sites/github_com
-```
-
-## Output Structure
-
-Downloaded sites are organized as follows:
-```
-sites/
-└── github_com/
-    ├── github_com.htm          # Main HTML file
-    └── github_com_files/        # Assets folder
-        ├── style.css
-        ├── script.js
-        ├── logo.png
-        └── favicon.ico
+python clone.py https://example.com/login
 ```
 
 ## How It Works
