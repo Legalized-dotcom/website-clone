@@ -20,8 +20,8 @@ cd website-clone
 
 Run the script and enter the URL when prompted:
 
-```bash
-python clone.py https://example.com/login
+```bashpython clone.py
+ https://example.com/login
 ```
 
 Then host the folder
